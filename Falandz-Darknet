@@ -83,7 +83,7 @@
     </div>
 
     <script>
-        const KEY = "";
+        const myKey = process.env.GROQ_API_KEY;
         let memory = [];
         let isTyping = false;
         let hasGreeted = false;
